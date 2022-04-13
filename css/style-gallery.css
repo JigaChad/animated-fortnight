@@ -1,0 +1,152 @@
+* {
+  
+    padding: 0;
+    margin: 0;
+  
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(58, 57, 57);
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0%;
+    background-color: #ffffff;
+
+    transition: 0.3s;
+
+  }
+
+.logo{
+  max-width: 10%;
+  padding-left: 10px;
+  cursor: pointer;
+  
+}
+
+.nav_links{
+    list-style: none;
+  
+  }
+  
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 40px;
+    
+  }
+  
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+    
+  }
+  
+  .nav_links li a:hover{
+    color: #0088a9;
+    
+  }
+  
+  a{
+    color: grey;
+    
+  }
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 9px 25px;
+    background-color: silver;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    
+    
+  }
+  
+  button:hover {
+    background-color: silver;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0%;
+    background-color: #ffffff;
+
+    transition: 0.3s;
+
+
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+  .container {
+    display: grid;
+    max-width: 50vw;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    padding: 1em;
+    background-color: #ffffff;
+  }
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    font-weight: 800;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    font-weight: 800;
+    font-size: xx-large;
+
+  }
+
+main p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    font-weight: 200;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 55vw;
+    min-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+  }
